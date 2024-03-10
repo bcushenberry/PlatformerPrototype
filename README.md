@@ -8,7 +8,7 @@ The controls are very simple: press either the left arrow key or A to move left,
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Demonstration Video](https://youtu.be/LY3TBF8sKjM)
 
 # Development Environment
 
