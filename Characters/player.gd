@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @export var move_speed : float = 125.0
 @export var jump_speed : float = -400.0
-var gravity = 20.0
+var gravity = 15.0
 
 func _ready():
 	pass
@@ -10,7 +10,7 @@ func _ready():
 func _process(delta):
 
 ####### Gravity (positive y-axis) #######
-	velocity.y = velocity.y + 15
+	velocity.y = velocity.y + gravity
 
 # There is a default gravity setting that can be used, but I wanted to
 # learn how to "make" gravity, so I didn't use it in the end:
